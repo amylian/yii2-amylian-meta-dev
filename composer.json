@@ -21,7 +21,7 @@
           "url": "https://github.com/amylian/yii2-amylian-doctrine-orm"
         }
     ],
-    minimum-stability: "dev"
+    "minimum-stability": "dev",
     "require": {
         "amylian/yii2-amylian-base": "*"
         "amylian/yii2-amylian-doctrine-base": "*"

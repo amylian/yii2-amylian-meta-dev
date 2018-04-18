@@ -23,10 +23,10 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "amylian/yii2-amylian-base": "*"
-        "amylian/yii2-amylian-doctrine-base": "*"
-        "amylian/yii2-amylian-doctrine-cache": "*"
-        "amylian/yii2-amylian-doctrine-dbal": "*"
+        "amylian/yii2-amylian-base": "*",
+        "amylian/yii2-amylian-doctrine-base": "*",
+        "amylian/yii2-amylian-doctrine-cache": "*",
+        "amylian/yii2-amylian-doctrine-dbal": "*",
         "amylian/yii2-amylian-doctrine-orm": "*"
     }
 }

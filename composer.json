@@ -1,0 +1,32 @@
+{
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/amylian/yii2-amylian-base"
+        },    
+        {
+            "type": "vcs",
+          "url": "https://github.com/amylian/yii2-amylian-doctrine-base"
+        }
+        {
+            "type": "vcs",
+          "url": "https://github.com/amylian/yii2-amylian-doctrine-cache"
+        }
+        {
+            "type": "vcs",
+          "url": "https://github.com/amylian/yii2-amylian-doctrine-dbal"
+        }
+        {
+            "type": "vcs",
+          "url": "https://github.com/amylian/yii2-amylian-doctrine-orm"
+        }
+    ],
+    minimum-stability: "dev"
+    "require": {
+        "amylian/yii2-amylian-base": "*"
+        "amylian/yii2-amylian-doctrine-base": "*"
+        "amylian/yii2-amylian-doctrine-cache": "*"
+        "amylian/yii2-amylian-doctrine-dbal": "*"
+        "amylian/yii2-amylian-doctrine-orm": "*"
+    }
+}

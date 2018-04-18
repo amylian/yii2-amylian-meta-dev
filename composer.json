@@ -1,31 +1,35 @@
 {
-"repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/amylian/yii2-amylian-base"
-        },    
-        {
-            "type": "vcs",
-          "url": "https://github.com/amylian/yii2-amylian-doctrine-base"
-        },
-        {
-            "type": "vcs",
-          "url": "https://github.com/amylian/yii2-amylian-doctrine-cache"
-        },
-        {
-            "type": "vcs",
-          "url": "https://github.com/amylian/yii2-amylian-doctrine-dbal"
-        },
-        {
-            "type": "vcs",
-          "url": "https://github.com/amylian/yii2-amylian-doctrine-orm"
-        }
-    ],
-    "require": {
-        "amylian/yii2-amylian-base": "dev-master",
-        "amylian/yii2-amylian-doctrine-base": "dev-master",
-        "amylian/yii2-amylian-doctrine-cache": "dev-master",
-        "amylian/yii2-amylian-doctrine-dbal": "dev-master",
-        "amylian/yii2-amylian-doctrine-orm": "dev-master"
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/amylian/yii2-amylian-base"
+    },    
+    {
+      "type": "vcs",
+      "url": "https://github.com/amylian/yii2-amylian-doctrine-base"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/amylian/yii2-amylian-doctrine-common"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/amylian/yii2-amylian-doctrine-cache"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/amylian/yii2-amylian-doctrine-dbal"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/amylian/yii2-amylian-doctrine-orm"
     }
+  ],
+  "require": {
+    "amylian/yii2-amylian-base": "dev-master",
+    "amylian/yii2-amylian-doctrine-base": "dev-master",
+    "amylian/yii2-amylian-doctrine-cache": "dev-master",
+    "amylian/yii2-amylian-doctrine-dbal": "dev-master",
+    "amylian/yii2-amylian-doctrine-orm": "dev-master"
+  }
 }

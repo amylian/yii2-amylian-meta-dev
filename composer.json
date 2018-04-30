@@ -36,6 +36,10 @@
   "minimum-stability": "dev",
   "prefer-stable": false,  
   "require": {
+    "doctrine/common": "*",
+    "doctrine/cache": "*",
+    "doctrine/dbal": "*",
+    "doctrine/orm": "*",
     "amylian/yii2-amylian-phpunit": "dev-master",
     "amylian/yii2-amylian-base": "dev-master",
     "amylian/yii2-amylian-cache": "dev-master",

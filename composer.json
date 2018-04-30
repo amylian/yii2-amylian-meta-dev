@@ -2,7 +2,15 @@
   "repositories": [
     {
       "type": "vcs",
+      "url": "https://github.com/amylian/yii2-amylian-phpunit"
+    },    
+    {
+      "type": "vcs",
       "url": "https://github.com/amylian/yii2-amylian-base"
+    },    
+    {
+      "type": "vcs",
+      "url": "https://github.com/amylian/yii2-amylian-cache"
     },    
     {
       "type": "vcs",
@@ -25,11 +33,26 @@
       "url": "https://github.com/amylian/yii2-amylian-doctrine-orm"
     }
   ],
+  "minimum-stability": "dev",
+  "prefer-stable": false,  
   "require": {
+    "amylian/yii2-amylian-phpunit": "dev-master",
     "amylian/yii2-amylian-base": "dev-master",
+    "amylian/yii2-amylian-cache": "dev-master",
     "amylian/yii2-amylian-doctrine-base": "dev-master",
+    "amylian/yii2-amylian-doctrine-common": "dev-master",
     "amylian/yii2-amylian-doctrine-cache": "dev-master",
     "amylian/yii2-amylian-doctrine-dbal": "dev-master",
     "amylian/yii2-amylian-doctrine-orm": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "<6"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Doctrine\\Tests\\": "vendor/doctrine/cache/tests/",
+      "abexto\\amylian\\yii\\base\\tests\\": "vendor/amylian/yii2-amylian-base/tests/",
+      "abexto\\amylian\\yii\\cache\\tests\\": "vendor/amylian/yii2-amylian-cache/tests/"
+    }
   }
 }

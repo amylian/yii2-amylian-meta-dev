@@ -1,6 +1,18 @@
 {
   "repositories": [
     {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },    
+    {
+      "type": "vcs",
+      "url": "https://github.com/amylian/amylian-utils"
+    },    
+    {
+      "type": "vcs",
+      "url": "https://github.com/amylian/amylian-phpunit"
+    },    
+    {
       "type": "vcs",
       "url": "https://github.com/amylian/yii2-amylian-phpunit"
     },    
@@ -31,6 +43,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/amylian/yii2-amylian-doctrine-orm"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/amylian/yii2-amylian-doctrine"
     }
   ],
   "minimum-stability": "dev",
@@ -40,6 +56,8 @@
     "doctrine/cache": "*",
     "doctrine/dbal": "*",
     "doctrine/orm": "*",
+    "amylian/amylian-phpunit": "dev-master",
+    "amylian/amylian-utils": "dev-master",
     "amylian/yii2-amylian-phpunit": "dev-master",
     "amylian/yii2-amylian-base": "dev-master",
     "amylian/yii2-amylian-cache": "dev-master",
@@ -47,16 +65,25 @@
     "amylian/yii2-amylian-doctrine-common": "dev-master",
     "amylian/yii2-amylian-doctrine-cache": "dev-master",
     "amylian/yii2-amylian-doctrine-dbal": "dev-master",
-    "amylian/yii2-amylian-doctrine-orm": "dev-master"
+    "amylian/yii2-amylian-doctrine-orm": "dev-master",
+    "amylian/yii2-amylian-doctrine": "dev-master"
   },
   "require-dev": {
+    "yiisoft/yii2-bootstrap": "~2.0.0",
+    "yiisoft/yii2-apidoc": "dev-master",
     "phpunit/phpunit": "<6"
   },
   "autoload-dev": {
     "psr-4": {
-      "Doctrine\\Tests\\": "vendor/doctrine/cache/tests/",
+      "Doctrine\\Tests\\": "vendor/doctrine/cache/tests/Doctrine/Tests/",
       "abexto\\amylian\\yii\\base\\tests\\": "vendor/amylian/yii2-amylian-base/tests/",
-      "abexto\\amylian\\yii\\cache\\tests\\": "vendor/amylian/yii2-amylian-cache/tests/"
+      "abexto\\amylian\\yii\\cache\\tests\\": "vendor/amylian/yii2-amylian-cache/tests/",
+      "abexto\\amylian\\yii\\doctrine\\dbal\\tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "master-dev"
     }
   }
 }
